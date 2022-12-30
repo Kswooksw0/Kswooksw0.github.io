@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: "Raleway";
+    font-weight: 400;
+}
+section {
+    /* border: black solid 5px; */
+    margin:5% 25%;
+}
+
+/* Horizontal Line */
+
+hr {
+    width: 90%;
+}
+
+.contact-hr {
+    width: 53vw;
+    margin: 12vh auto 0;
+}
+
+/* Links */
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+.link:hover {
+    color:white
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 0;
+}
+
+/* Nav bar */
+
+.navbar-brand {
+    font-family: "Roboto";
+    font-size: 1.8rem;
+    padding: 0;
+}
+.myName {
+    font-size: 2rem;
+}
+.navbar-toggler {
+    margin: 2%;
+}
+#navbarToggle {
+    text-align: center;
+}
+.navbar-nav {
+    /* border:solid black 5px; */
+    display: flex;
+    justify-content:space-between;
+    font-weight: 700;
+}
+.nav-item, .nav-link{
+    font-size: 1.1rem;
+    padding: 0;
+    margin: 2%;
+    color: #0f0f0f;
+}
+
+/* Homepage */
+
+.homepage {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+}
+.homepage-img {
+    width: 100%;
+    /* border: black solid 5px; */
+}
+
+/* Diary Collection */
+
+.diaryBox {
+    /* border: black solid 5px; */
+    padding: 1%;
+}
+button.box {
+    /* border:black solid 1px; */
+    margin:0px;
+    width:100% ;
+}
+
+/* Diary */
+
+.diary-first-paragraph::first-letter {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+/* Social Icons */
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* border: black solid 5px; */
+    width: 100%;
+    height: 35vh;
+}
+.contact-icon-box {
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    /* border: red solid 5px; */
+}
+.contact-icon {
+    color: black;
+    /* border: blue solid 5px; */
+    padding:0 5%;
+    font-size: 2.2rem;
+}
+.contact-icon:hover {
+    color: #4C4C4C;
+}
+.contact-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: black solid 5px; */
+    width: auto;
+    height: 80%;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.contact-email a {
+    color: black;
+}
+
+
+/* Media Query */
+@media (max-width:768px) {
+    .diaryBox {
+        height: 11vh;
+    }
+    button.box {
+        width: 60%;
+        height:100% ;
+    }
+    .contact-icon {
+        font-size:1.9rem ;
+    }
+    .contact-email {
+        font-size: 1rem;
+    }
+}
+
